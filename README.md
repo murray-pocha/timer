@@ -12,3 +12,26 @@ Invalid inputs (non-numeric or negative values) are safely ignored with a warnin
 
 ```bash
 node timer.js 3 5 10 -2 abc
+Output:
+
+Invalid time input: "-2"
+Invalid time input: "abc"
+Alarm goes off in 3 seconds
+Alarm goes off in 5 seconds
+Alarm goes off in 10 seconds
+
+Each alarm includes a beep sound in the terminal.
+
+Usage:
+Clone or download this repo.
+
+Run the script in a terminal:
+
+node timer.js <time1> <time2> ...
+Replace <time> with one or more positive numbers in seconds.
+
+Requirements
+Node.js (v12+)
+
+Author
+Created by Murray Pocha as part of Lighthouse Labs Web Development Bootcamp.
