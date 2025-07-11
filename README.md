@@ -1,8 +1,8 @@
-⏰ Alarm Timer (Node.js)
+# ⏰ Alarm Timer (Node.js)
 
 A simple command-line countdown timer built with Node.js. When run with one or more time values (in seconds), the script sets timers and triggers a terminal beep (\x07) when each timer completes.
 
-📌 Features
+## 📌 Features
 
 Accepts one or more positive numbers as command-line arguments.
 
@@ -22,7 +22,7 @@ Prints a message indicating the alarm has gone off.
 
 Emits a terminal beep.
 
-💡 Example
+## 💡 Example
 
 node timer.js 3 5 10 -2 abc
 Output:
@@ -34,7 +34,7 @@ Alarm goes off in 5 seconds
 Alarm goes off in 10 seconds
 Each alarm triggers a terminal beep.
 
-🚀 Getting Started
+## 🚀 Getting Started
 Clone or download this repository.
 
 Run the script using Node.js:
@@ -42,10 +42,10 @@ Run the script using Node.js:
 node timer.js <time1> <time2> ...
 Replace <time> with one or more positive integers representing seconds.
 
-📦 Requirements
+## 📦 Requirements
 Node.js (version 12 or higher)
 
-👨‍💻 Author
+## 👨‍💻 Author
 Created by Murray Pocha
 As part of the Lighthouse Labs Web Development Bootcamp
 
