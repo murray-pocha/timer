@@ -1,16 +1,29 @@
-# Alarm Timer (Node.js)
+⏰ Alarm Timer (Node.js)
 
-This is a simple Node.js script that functions as a countdown timer. When run from the command line with one or more time values (in seconds), the script sets timers and plays a beep sound (`\x07`) when each one finishes.
+A simple command-line countdown timer built with Node.js. When run with one or more time values (in seconds), the script sets timers and triggers a terminal beep (\x07) when each timer completes.
 
-## How It Works
+📌 Features
 
-You provide one or more positive numbers as command-line arguments. Each valid number triggers a corresponding alarm after that many seconds.
+Accepts one or more positive numbers as command-line arguments.
 
-Invalid inputs (non-numeric or negative values) are safely ignored with a warning message.
+Triggers an audible beep when each timer completes.
 
-## Example
+Ignores invalid inputs (e.g., negative numbers or non-numeric values) with a clear warning message.
 
-```bash
+🛠️ How It Works
+
+You run the script from the terminal and pass in one or more time values (in seconds).
+
+Each valid time input creates a corresponding timer.
+
+Once a timer expires, it:
+
+Prints a message indicating the alarm has gone off.
+
+Emits a terminal beep.
+
+💡 Example
+
 node timer.js 3 5 10 -2 abc
 Output:
 
@@ -19,19 +32,20 @@ Invalid time input: "abc"
 Alarm goes off in 3 seconds
 Alarm goes off in 5 seconds
 Alarm goes off in 10 seconds
+Each alarm triggers a terminal beep.
 
-Each alarm includes a beep sound in the terminal.
+🚀 Getting Started
+Clone or download this repository.
 
-Usage:
-Clone or download this repo.
-
-Run the script in a terminal:
+Run the script using Node.js:
 
 node timer.js <time1> <time2> ...
-Replace <time> with one or more positive numbers in seconds.
+Replace <time> with one or more positive integers representing seconds.
 
-Requirements
-Node.js (v12+)
+📦 Requirements
+Node.js (version 12 or higher)
 
-Author
-Created by Murray Pocha as part of Lighthouse Labs Web Development Bootcamp.
+👨‍💻 Author
+Created by Murray Pocha
+As part of the Lighthouse Labs Web Development Bootcamp
+
